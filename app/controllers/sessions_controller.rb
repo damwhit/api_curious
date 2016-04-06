@@ -3,7 +3,8 @@ class SessionsController < ApplicationController
     if user = User.from_omniauth(request.env["omniauth.auth"])
       session[:user_id] = user.id
     end
-    redirect_to root_path
+    flash[:info] = "Welcome to ApIcUrIoUs #{current_user.name}"
+    redirect_to user_path(current_user.username)
   end
 
   def destroy

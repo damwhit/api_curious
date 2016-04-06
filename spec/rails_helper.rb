@@ -68,25 +68,25 @@ Shoulda::Matchers.configure do |config|
     with.test_framework :rspec
     with.library :rails
   end
+end
 
-  def stub_omniauth
-    # first, set OmniAuth to run in test mode
-    OmniAuth.config.test_mode = true
-    # then, provide a set of fake oauth data that
-    # omniauth will use when a user tries to authenticate:
-    OmniAuth.config.mock_auth[:instagram] = OmniAuth::AuthHash.new({
-      provider: "instagram",
-      uid: "000001",
-      info:
-        {nickname: "damwhita",
-        name: "David",
-        email: "damwhit@gmail.com",
-        image:
-        "https://scontent.cdninstagram.com/t51.2885-19/11428706_1479772922342298_1403186492_a.jpg",
-        bio: "",
-        website: ""},
-      credentials:
-        {"token"=>"pizza", "expires"=>false}
-      })
-  end
+def stub_omniauth
+  # first, set OmniAuth to run in test mode
+  OmniAuth.config.test_mode = true
+  # then, provide a set of fake oauth data that
+  # omniauth will use when a user tries to authenticate:
+  OmniAuth.config.mock_auth[:instagram] = OmniAuth::AuthHash.new({
+    provider: "instagram",
+    uid: "000001",
+    info:
+      {nickname: "damwhita",
+      name: "David",
+      email: "damwhit@gmail.com",
+      image:
+      "https://scontent.cdninstagram.com/t51.2885-19/11428706_1479772922342298_1403186492_a.jpg",
+      bio: "",
+      website: ""},
+    credentials:
+      {"token"=>"pizza", "expires"=>false}
+    })
 end
