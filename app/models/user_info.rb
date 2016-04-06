@@ -2,6 +2,7 @@ class UserInfo
   attr_reader :posts,
               :followers,
               :following
+
   def initialize(info)
     @posts = info[:counts][:media]
     @followers = info[:counts][:followed_by]

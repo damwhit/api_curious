@@ -1,1 +1,25 @@
-  
+<div class="container">
+  <div class="row">
+    <div class="col-md-7">
+      <%= image_tag @media.image_url %>
+    </div>
+    <div class="col-md-5">
+      <table class="prof-table">
+        <tr>
+          <td>
+            <%= link_to image_tag(@media.prof_pic, class: "img-circle sm-img"), user_path(@media.username) %>
+          </td>
+          <td>
+            <%= link_to @media.username, user_path(@media.username), class: "media-text" %><br>
+            <h3><%= @media.location %></h3>
+          </td>
+        </tr>
+      </table>
+      <div>
+        <h3><%= @media.likes %> likes</h3><br><br>
+        <%= link_to @media.username, user_path(@media.username), class: "media-text" %><br>
+<h3><%= @media.caption %></h3>
+      </div>
+    </div>
+  </div>
+</div>
