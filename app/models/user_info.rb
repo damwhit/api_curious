@@ -1,14 +1,18 @@
 class UserInfo
+  attr_reader :posts,
+              :followers,
+              :following
+  def initialize(info)
+    @posts = info[:counts][:media]
+    @followers = info[:counts][:followed_by]
+    @following = info[:counts][:follows]
+  end
+
   def self.service
     InstagramService.new
   end
 
   def self.all(token)
-    build_object(service.user_info(token)[:data])
+    UserInfo.new(service.user_info(token)[:data])
   end
-
-  private
-    def self.build_object(data)
-      OpenStruct.new(data)
-    end
 end
