@@ -10,6 +10,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'figaro'
 gem 'pg'
 gem 'omniauth-instagram'
+gem 'faraday'
 
 group :development, :test do
   gem 'pry'

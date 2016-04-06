@@ -6,7 +6,7 @@
     <li class="navbar-brand">Hello, <%= current_user.name %></li>
     <li class="navbar-brand"><%= link_to "logout", logout_path, method: :delete %></li>
   <% else %>
-    <li class="navbar-brand"><%= link_to "login with instagram", instagram_login_path %></li>
+    li<span class="navbar-brand"><%= link_to "login with instagram", instagram_login_path %></li>
   <% end %>
   </ul>
 </nav>
