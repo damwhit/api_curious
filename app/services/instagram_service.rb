@@ -20,6 +20,10 @@ class InstagramService
     parse(connection.get("media/#{post_id}", {access_token: token}))
   end
 
+  def create_comment(token, post_id, comment)
+    connection.post("media/#{post_id}/comments", {access_token: token, text: comment})
+  end
+
   def comments(token, post_id)
     parse(connection.get("media/#{post_id}/comments", {access_token: token}))
   end

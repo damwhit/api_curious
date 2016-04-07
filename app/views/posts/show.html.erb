@@ -22,6 +22,7 @@
         <% @post.comments.each do |comment| %>
           <span class="comment"><em><%= comment.username %>:</em> <strong><%= comment.comment %></strong></span><br><br>
         <% end %>
+        <%= render partial: "form" %>
       </div>
     </div>
   </div>

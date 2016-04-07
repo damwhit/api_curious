@@ -7,5 +7,6 @@ Rails.application.routes.draw do
 
   resources :users, param: :username, only: [:show]
   resources :posts, only: [:show, :index]
-
+  post "/posts/:id", to: "posts#create"
+  
 end
