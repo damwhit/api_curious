@@ -1,0 +1,28 @@
+<% @posts.each do |post| %>
+  <article class="col-md-6 col-md-offset-3 article">
+    <header>
+      <table class="table-responsive feed">
+        <tr>
+          <td>
+            <%= image_tag(post.prof_pic, class: "img-circle sm-img") %>
+          </td>
+          <td>
+            <h3 class="media-text"><%= post.username %></h3>
+            <h3><%= post.location %></h3>
+          </td>
+          <td>
+            <h3 class="time"><%= post.format_time %></h3>
+          </td>
+        </tr>
+      </table>
+    </header>
+    <div class="">
+      <%= image_tag post.image_url, class: "feed" %>
+    </div>
+    <div class="feed">
+      <h3><%= post.likes %> likes</h3><br><br>
+    <h3 class="media-text"><%= post.username %></h3><br>
+    <h3><%= post.caption %></h3>
+    </div>
+  </article>
+<% end %>
