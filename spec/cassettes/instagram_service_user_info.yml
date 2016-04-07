@@ -1,0 +1,193 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.instagram.com/v1/users/self?access_token=684175016.1d1a0a0.e79ca0de3adc457182dc95a158a68384
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Ratelimit-Remaining:
+      - '491'
+      Content-Language:
+      - en
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Vary:
+      - Cookie, Accept-Language, Accept-Encoding
+      X-Ratelimit-Limit:
+      - '500'
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Date:
+      - Thu, 07 Apr 2016 16:19:51 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - csrftoken=a35678afea3649efb1043e240303ce35; expires=Thu, 06-Apr-2017 16:19:51
+        GMT; Max-Age=31449600; Path=/
+      - s_network=; expires=Thu, 07-Apr-2016 17:19:51 GMT; Max-Age=3600; Path=/
+      - sessionid=IGSC72c8ae7fcd1409110e39d98cc483812d224b1fcc88452448845290914a790f1b%3ASjgLRW7XYa35104MQUI2HMfYegMCZakv%3A%7B%22asns%22%3A%7B%2263.145.15.99%22%3A209%2C%22time%22%3A1460045991%7D%7D;
+        expires=Wed, 06-Jul-2016 16:19:51 GMT; httponly; Max-Age=7776000; Path=/
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '231'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meta":{"code":200},"data":{"username":"damwhita","bio":"","website":"","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","full_name":"David
+        Michael","counts":{"media":11,"followed_by":196,"follows":247},"id":"684175016"}}'
+    http_version:
+  recorded_at: Thu, 07 Apr 2016 16:19:51 GMT
+- request:
+    method: get
+    uri: https://api.instagram.com/v1/users/self/media/recent?access_token=684175016.1d1a0a0.e79ca0de3adc457182dc95a158a68384
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Ratelimit-Remaining:
+      - '490'
+      Content-Language:
+      - en
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Vary:
+      - Cookie, Accept-Language, Accept-Encoding
+      X-Ratelimit-Limit:
+      - '500'
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Date:
+      - Thu, 07 Apr 2016 16:19:53 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - csrftoken=bd6ef0f395a8bab164b5a6d308250419; expires=Thu, 06-Apr-2017 16:19:53
+        GMT; Max-Age=31449600; Path=/
+      - s_network=; expires=Thu, 07-Apr-2016 17:19:53 GMT; Max-Age=3600; Path=/
+      - sessionid=IGSC34b59e65fe5a807db51173e10e40ef82d9bfcc8b0bfab685e51204743f40b042%3AqF8KabMTbpo3Rw8WIwrVX8jfRFJjxsjK%3A%7B%22asns%22%3A%7B%2263.145.15.99%22%3A209%2C%22time%22%3A1460045993%7D%7D;
+        expires=Wed, 06-Jul-2016 16:19:53 GMT; httponly; Max-Age=7776000; Path=/
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2707'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{},"meta":{"code":200},"data":[{"attribution":null,"tags":[],"type":"image","location":{"latitude":39.61900034,"name":"Buffalo
+        Mountain","longitude":-106.091719383,"id":251727556},"comments":{"count":1},"filter":"Clarendon","created_time":"1452453317","link":"https:\/\/www.instagram.com\/p\/BAXrFnDAEYZ\/","likes":{"count":35},"images":{"low_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s320x320\/e35\/12523767_1011775992220969_2051935539_n.jpg?ig_cache_key=MTE1OTU4NDkzMDU5NDgzMzk0NQ%3D%3D.2","width":320,"height":320},"thumbnail":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s150x150\/e35\/12523767_1011775992220969_2051935539_n.jpg?ig_cache_key=MTE1OTU4NDkzMDU5NDgzMzk0NQ%3D%3D.2","width":150,"height":150},"standard_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s640x640\/sh0.08\/e35\/12523767_1011775992220969_2051935539_n.jpg?ig_cache_key=MTE1OTU4NDkzMDU5NDgzMzk0NQ%3D%3D.2","width":640,"height":640}},"users_in_photo":[],"caption":{"created_time":"1452453317","text":"Chonicles
+        of Gnarnia with elm dog. \u2603","from":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
+        Michael"},"id":"1159584933564401464"},"user_has_liked":false,"id":"1159584930594833945_684175016","user":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
+        Michael"}},{"attribution":null,"tags":[],"type":"image","location":null,"comments":{"count":9},"filter":"Normal","created_time":"1451396987","link":"https:\/\/www.instagram.com\/p\/_4MTEVAEd-\/","likes":{"count":64},"images":{"low_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s320x320\/e35\/1516093_596403250508237_440488129_n.jpg?ig_cache_key=MTE1MDcyMzc5MTY2ODY2MDA5NA%3D%3D.2","width":320,"height":320},"thumbnail":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s150x150\/e35\/1516093_596403250508237_440488129_n.jpg?ig_cache_key=MTE1MDcyMzc5MTY2ODY2MDA5NA%3D%3D.2","width":150,"height":150},"standard_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s640x640\/sh0.08\/e35\/1516093_596403250508237_440488129_n.jpg?ig_cache_key=MTE1MDcyMzc5MTY2ODY2MDA5NA%3D%3D.2","width":640,"height":640}},"users_in_photo":[{"position":{"y":0.245333333,"x":0.305333333},"user":{"username":"lriffell","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11098660_846071145459297_1292308396_a.jpg","id":"23319913","full_name":"lriffell"}}],"caption":{"created_time":"1451396987","text":"Couldn''t
+        be more excited to call this little lady my bride to be!  Elmer''s stoked
+        too he just has a hard time finding the camera.","from":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
+        Michael"},"id":"1150723794017469651"},"user_has_liked":false,"id":"1150723791668660094_684175016","user":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
+        Michael"}},{"attribution":null,"tags":[],"type":"image","location":{"latitude":39.63395777,"name":"The
+        Raven Golf Club, Silverthorne, Colo.","longitude":-106.07611167,"id":936418233},"comments":{"count":1},"filter":"Normal","created_time":"1444604855","link":"https:\/\/www.instagram.com\/p\/8txVW4AEYf\/","likes":{"count":26},"images":{"low_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s320x320\/e35\/11856741_1661646440713528_154386553_n.jpg?ig_cache_key=MTA5Mzc0NzI1NjQ3MDgxNjI4Nw%3D%3D.2","width":320,"height":320},"thumbnail":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s150x150\/e35\/11856741_1661646440713528_154386553_n.jpg?ig_cache_key=MTA5Mzc0NzI1NjQ3MDgxNjI4Nw%3D%3D.2","width":150,"height":150},"standard_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s640x640\/sh0.08\/e35\/11856741_1661646440713528_154386553_n.jpg?ig_cache_key=MTA5Mzc0NzI1NjQ3MDgxNjI4Nw%3D%3D.2","width":640,"height":640}},"users_in_photo":[],"caption":{"created_time":"1444604855","text":"You
+        can tell that it''s an aspen tree because of the way it is","from":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
+        Michael"},"id":"1093747258677020283"},"user_has_liked":false,"id":"1093747256470816287_684175016","user":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
+        Michael"}},{"attribution":null,"tags":["whorescuedwho","nationalpuppyday"],"type":"image","location":null,"comments":{"count":1},"filter":"Normal","created_time":"1427160725","link":"https:\/\/www.instagram.com\/p\/0l5S-yAERj\/","likes":{"count":26},"images":{"low_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s320x320\/e15\/11055912_656071237831868_90535132_n.jpg?ig_cache_key=OTQ3NDE1Mjg5NjQzOTQzMDEx.2","width":320,"height":320},"thumbnail":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s150x150\/e15\/11055912_656071237831868_90535132_n.jpg?ig_cache_key=OTQ3NDE1Mjg5NjQzOTQzMDEx.2","width":150,"height":150},"standard_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/e15\/11055912_656071237831868_90535132_n.jpg?ig_cache_key=OTQ3NDE1Mjg5NjQzOTQzMDEx.2","width":640,"height":640}},"users_in_photo":[],"caption":{"created_time":"1427160725","text":"\"Me
+        want fooooooood\" #WhoRescuedWho #nationalpuppyday","from":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
+        Michael"},"id":"947415289870435973"},"user_has_liked":false,"id":"947415289643943011_684175016","user":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
+        Michael"}},{"attribution":null,"tags":["badelmers"],"type":"image","location":null,"comments":{"count":5},"filter":"Ludwig","created_time":"1423442390","link":"https:\/\/www.instagram.com\/p\/y3FIqiAEfQ\/","likes":{"count":24},"images":{"low_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s320x320\/e15\/10948196_1539971729596357_641232270_n.jpg?ig_cache_key=OTE2MjIzNjM0ODQ5MTU1MDI0.2","width":320,"height":320},"thumbnail":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s150x150\/e15\/10948196_1539971729596357_641232270_n.jpg?ig_cache_key=OTE2MjIzNjM0ODQ5MTU1MDI0.2","width":150,"height":150},"standard_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/e15\/10948196_1539971729596357_641232270_n.jpg?ig_cache_key=OTE2MjIzNjM0ODQ5MTU1MDI0.2","width":640,"height":640}},"users_in_photo":[],"caption":{"created_time":"1423442390","text":"Big
+        day for the little man, Bad Elmer","from":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
+        Michael"},"id":"916223635117590067"},"user_has_liked":false,"id":"916223634849155024_684175016","user":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
+        Michael"}},{"attribution":null,"tags":[],"type":"image","location":{"latitude":39.606784645,"name":"Keystone
+        Mountain, Colorado","longitude":-105.942487794,"id":213325008},"comments":{"count":2},"filter":"Normal","created_time":"1419803204","link":"https:\/\/www.instagram.com\/p\/xKn8IrgEeL\/","likes":{"count":52},"images":{"low_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s320x320\/e15\/10853054_322208544639202_46732433_n.jpg?ig_cache_key=ODg1Njk1OTMzMDM0MDIyNzk1.2","width":320,"height":320},"thumbnail":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s150x150\/e15\/10853054_322208544639202_46732433_n.jpg?ig_cache_key=ODg1Njk1OTMzMDM0MDIyNzk1.2","width":150,"height":150},"standard_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/e15\/10853054_322208544639202_46732433_n.jpg?ig_cache_key=ODg1Njk1OTMzMDM0MDIyNzk1.2","width":640,"height":640}},"users_in_photo":[],"caption":{"created_time":"1419803204","text":"Beardsicle\u2744\ufe0f\ud83c\udf01\u26c4\ufe0f","from":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
+        Michael"},"id":"885695933738664971"},"user_has_liked":false,"id":"885695933034022795_684175016","user":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
+        Michael"}},{"attribution":null,"tags":["got"],"type":"image","location":{"id":247632175},"comments":{"count":0},"filter":"Amaro","created_time":"1396735441","link":"https:\/\/www.instagram.com\/p\/mbJrGHgEdM\/","likes":{"count":17},"images":{"low_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s320x320\/e15\/1515172_671347836245747_205422769_n.jpg?ig_cache_key=NjkyMTg5NTExNjU1OTAxMDA0.2","width":320,"height":320},"thumbnail":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s150x150\/e15\/1515172_671347836245747_205422769_n.jpg?ig_cache_key=NjkyMTg5NTExNjU1OTAxMDA0.2","width":150,"height":150},"standard_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/e15\/1515172_671347836245747_205422769_n.jpg?ig_cache_key=NjkyMTg5NTExNjU1OTAxMDA0.2","width":640,"height":640}},"users_in_photo":[],"caption":{"created_time":"1396735441","text":"Winter
+        is coming... #GOT","from":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
+        Michael"},"id":"692189512469596010"},"user_has_liked":false,"id":"692189511655901004_684175016","user":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
+        Michael"}},{"attribution":null,"videos":{"low_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/l\/t50.2886-16\/11679424_1601794013424558_1865015141_a.mp4","width":480,"height":480},"standard_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t50.2886-16\/11685343_636728993096879_2102323874_n.mp4","width":640,"height":640}},"tags":["sharpshooter"],"type":"video","location":null,"comments":{"count":0},"filter":"Normal","created_time":"1385914752","link":"https:\/\/www.instagram.com\/p\/hYq2JxAEXC\/","likes":{"count":9},"images":{"low_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s320x320\/e15\/10859994_973920129326296_6489718_n.jpg?ig_cache_key=NjAxNDE4OTg5NTQ0OTQ5MTg2.2","width":320,"height":320},"thumbnail":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s150x150\/e15\/10859994_973920129326296_6489718_n.jpg?ig_cache_key=NjAxNDE4OTg5NTQ0OTQ5MTg2.2","width":150,"height":150},"standard_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/e15\/10859994_973920129326296_6489718_n.jpg?ig_cache_key=NjAxNDE4OTg5NTQ0OTQ5MTg2.2","width":640,"height":640}},"users_in_photo":[],"caption":{"created_time":"1385914752","text":"#sharpshooter","from":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
+        Michael"},"id":"601419233133348783"},"user_has_liked":false,"id":"601418989544949186_684175016","user":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
+        Michael"}},{"attribution":null,"tags":[],"type":"image","location":null,"comments":{"count":4},"filter":"Normal","created_time":"1385755261","link":"https:\/\/www.instagram.com\/p\/hT6pFPAEUQ\/","likes":{"count":19},"images":{"low_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s320x320\/e15\/1209553_646217685400911_1844837314_n.jpg?ig_cache_key=NjAwMDgxMDg1MTg2OTgzMTg0.2","width":320,"height":320},"thumbnail":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s150x150\/e15\/1209553_646217685400911_1844837314_n.jpg?ig_cache_key=NjAwMDgxMDg1MTg2OTgzMTg0.2","width":150,"height":150},"standard_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/e15\/1209553_646217685400911_1844837314_n.jpg?ig_cache_key=NjAwMDgxMDg1MTg2OTgzMTg0.2","width":640,"height":640}},"users_in_photo":[],"caption":null,"user_has_liked":false,"id":"600081085186983184_684175016","user":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
+        Michael"}},{"attribution":null,"videos":{"low_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t50.2886-16\/11676598_381624312028901_166891776_a.mp4","width":480,"height":480},"standard_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t50.2886-16\/11684492_1640135922888737_962357709_n.mp4","width":640,"height":640}},"tags":["tv","likemike","bros","bball","games","videogames","hoops","2k"],"type":"video","location":null,"comments":{"count":0},"filter":"Vesper","created_time":"1385183774","link":"https:\/\/www.instagram.com\/p\/hC4ngwAERd\/","likes":{"count":10},"images":{"low_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s320x320\/e15\/10817664_634217400047986_326641187_n.jpg?ig_cache_key=NTk1Mjg3MTA2NTk1NjAzNTQ5.2","width":320,"height":320},"thumbnail":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s150x150\/e15\/10817664_634217400047986_326641187_n.jpg?ig_cache_key=NTk1Mjg3MTA2NTk1NjAzNTQ5.2","width":150,"height":150},"standard_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/e15\/10817664_634217400047986_326641187_n.jpg?ig_cache_key=NTk1Mjg3MTA2NTk1NjAzNTQ5.2","width":640,"height":640}},"users_in_photo":[],"caption":{"created_time":"1385183774","text":"Casey
+        is beating me! \ud83d\ude12 #2k #games #videogames #bros #tv #bball #hoops
+        #likemike","from":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
+        Michael"},"id":"595287728417948714"},"user_has_liked":false,"id":"595287106595603549_684175016","user":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
+        Michael"}},{"attribution":null,"tags":[],"type":"image","location":null,"comments":{"count":1},"filter":"X-Pro
+        II","created_time":"1384923983","link":"https:\/\/www.instagram.com\/p\/g7JGrJgEQT\/","likes":{"count":9},"images":{"low_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s320x320\/e15\/1169234_573182079418751_145814461_n.jpg?ig_cache_key=NTkzMTA3ODE2OTk1MTExOTU1.2","width":320,"height":320},"thumbnail":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s150x150\/e15\/1169234_573182079418751_145814461_n.jpg?ig_cache_key=NTkzMTA3ODE2OTk1MTExOTU1.2","width":150,"height":150},"standard_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/e15\/1169234_573182079418751_145814461_n.jpg?ig_cache_key=NTkzMTA3ODE2OTk1MTExOTU1.2","width":640,"height":640}},"users_in_photo":[{"position":{"y":0.514062524,"x":0.529687524},"user":{"username":"sargentarjun","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/10852973_1522996357977149_1319435462_a.jpg","id":"50150076","full_name":"Arjun"}}],"caption":{"created_time":"1384923983","text":"I''m
+        not ashamed... Ok maybe a little bit.  Extreme adventure, Kumar @sargentarjun","from":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
+        Michael"},"id":"593108953265620843"},"user_has_liked":false,"id":"593107816995111955_684175016","user":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
+        Michael"}}]}'
+    http_version:
+  recorded_at: Thu, 07 Apr 2016 16:19:53 GMT
+- request:
+    method: get
+    uri: https://api.instagram.com/v1/users/self?access_token=684175016.1d1a0a0.e79ca0de3adc457182dc95a158a68384
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Ratelimit-Remaining:
+      - '489'
+      Content-Language:
+      - en
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Vary:
+      - Cookie, Accept-Language, Accept-Encoding
+      X-Ratelimit-Limit:
+      - '500'
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Date:
+      - Thu, 07 Apr 2016 16:19:54 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - csrftoken=9e8be016114017bdd13494baddb1e84a; expires=Thu, 06-Apr-2017 16:19:54
+        GMT; Max-Age=31449600; Path=/
+      - s_network=; expires=Thu, 07-Apr-2016 17:19:54 GMT; Max-Age=3600; Path=/
+      - sessionid=IGSC78b4bd75ca3840b80d7764354aac21a44254705e28afb1c4e641a53424d90bd3%3AiTygD9zGokXhpLLeLZ3EV89SyxBdxdf8%3A%7B%22asns%22%3A%7B%2263.145.15.99%22%3A209%2C%22time%22%3A1460045994%7D%7D;
+        expires=Wed, 06-Jul-2016 16:19:54 GMT; httponly; Max-Age=7776000; Path=/
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '231'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meta":{"code":200},"data":{"username":"damwhita","bio":"","website":"","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","full_name":"David
+        Michael","counts":{"media":11,"followed_by":196,"follows":247},"id":"684175016"}}'
+    http_version:
+  recorded_at: Thu, 07 Apr 2016 16:19:54 GMT
+recorded_with: VCR 3.0.1

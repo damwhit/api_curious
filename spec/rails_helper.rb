@@ -5,8 +5,15 @@ require File.expand_path('../../config/environment', __FILE__)
 abort("The Rails environment is running in production mode!") if Rails.env.production?
 require 'spec_helper'
 require 'rspec/rails'
+require 'webmock'
+require 'vcr'
 
 ActiveRecord::Migration.maintain_test_schema!
+
+VCR.configure do |c|
+  c.cassette_library_dir = 'spec/cassettes'
+  c.hook_into :webmock
+end
 
 RSpec.configure do |config|
   config.before(:suite) do
@@ -76,17 +83,17 @@ def stub_omniauth
   # then, provide a set of fake oauth data that
   # omniauth will use when a user tries to authenticate:
   OmniAuth.config.mock_auth[:instagram] = OmniAuth::AuthHash.new({
-    provider: "instagram",
-    uid: "000001",
-    info:
-      {nickname: "damwhita",
-      name: "David",
-      email: "damwhit@gmail.com",
-      image:
-      "https://scontent.cdninstagram.com/t51.2885-19/11428706_1479772922342298_1403186492_a.jpg",
-      bio: "",
-      website: ""},
-    credentials:
-      {"token"=>"pizza", "expires"=>false}
+    :provider => 'instagram',
+      :uid => '123545',
+      :info => {
+                  :name => 'david',
+                  :nickname => "damwhita",
+                  :email => 'damwhit@gmail.com',
+                  :image => "https://scontent.cdninstagram.com/t51.2885-19/11428706_1479772922342298_1403186492_a.jpg",
+                  :bio => "",
+                  :website => ""
+                },
+      :credentials => { :token => ENV['RESPONSE_TOKEN'] }
     })
+
 end
