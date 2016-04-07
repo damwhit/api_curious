@@ -11,6 +11,9 @@ gem 'figaro'
 gem 'pg'
 gem 'omniauth-instagram'
 gem 'faraday'
+gem 'will_paginate', '~> 3.0.5'
+gem 'bootstrap-will_paginate', '~> 0.0.10'
+gem 'coffee-rails', '~> 4.1.0'
 
 group :development, :test do
   gem 'pry'
