@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.feature "AuthenticatedUserLogsOuts", type: :feature do
+RSpec.feature "UserLogsInWithInstagramAndLogsOut", type: :feature do
   before do
     @user = stub_omniauth
   end

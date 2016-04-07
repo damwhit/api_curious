@@ -7,7 +7,6 @@ class PostsController < ApplicationController
   end
 
   def show
-    require "pry"; binding.pry
     @post = PostMedia.find_by(current_user.token, params["id"])
   end
 
