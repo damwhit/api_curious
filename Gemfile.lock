@@ -46,6 +46,8 @@ GEM
     bootstrap-sass (3.3.6)
       autoprefixer-rails (>= 5.2.1)
       sass (>= 3.3.4)
+    bootstrap-will_paginate (0.0.10)
+      will_paginate
     builder (3.2.2)
     capybara (2.6.2)
       addressable
@@ -219,6 +221,7 @@ GEM
       railties (>= 4.0)
       sprockets-rails (>= 2.0, < 4.0)
     websocket (1.2.2)
+    will_paginate (3.0.7)
     xpath (2.0.0)
       nokogiri (~> 1.3)
 
@@ -228,6 +231,7 @@ PLATFORMS
 DEPENDENCIES
   bcrypt (~> 3.1.7)
   bootstrap-sass (~> 3.3.6)
+  bootstrap-will_paginate (~> 0.0.10)
   capybara
   database_cleaner
   factory_girl_rails (~> 4.0)
@@ -251,6 +255,7 @@ DEPENDENCIES
   spring
   uglifier (>= 1.3.0)
   web-console (~> 2.0)
+  will_paginate (~> 3.0.5)
 
 BUNDLED WITH
    1.11.2
