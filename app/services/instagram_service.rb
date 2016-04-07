@@ -24,6 +24,10 @@ class InstagramService
     connection.post("media/#{post_id}/comments", {access_token: token, text: comment})
   end
 
+  def delete_comment(token, post_id, comment_id)
+    connection.delete("media/#{post_id}/comments/#{comment_id}", {access_token: token})
+  end
+
   def comments(token, post_id)
     parse(connection.get("media/#{post_id}/comments", {access_token: token}))
   end

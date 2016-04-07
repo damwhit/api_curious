@@ -20,7 +20,8 @@
         <%= link_to @post.username, user_path(@post.username), class: "media-text" %><br>
         <h3><%= @post.caption %></h3><br><br>
         <% @post.comments.each do |comment| %>
-          <span class="comment"><em><%= comment.username %>:</em> <strong><%= comment.comment %></strong></span><br><br>
+          <span class="comment"><em><%= comment.username %>:</em> <strong><%= comment.comment %></strong><%= link_to "delete comment", post_comment_path(comment_id: comment.id), method: :delete, data: { confirm: "Are you sure?" }, class:"btn btn-danger btn-xs" %></span><br><br>
+
         <% end %>
         <%= render partial: "form" %>
       </div>

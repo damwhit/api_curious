@@ -1,8 +1,10 @@
 class CommentMedia
   attr_reader :username,
-              :comment
+              :comment,
+              :id
 
   def initialize(media)
+    @id = media[:id]
     @username = media[:from][:username]
     @comment = media[:text]
   end
@@ -13,6 +15,10 @@ class CommentMedia
 
   def self.create(token, post_id, comment)
     service.create_comment(token, post_id, comment)
+  end
+
+  def self.destroy(token, post_id, comment_id)
+    service.delete_comment(token, post_id, comment_id)
   end
 
   def self.all(token, post_id)
