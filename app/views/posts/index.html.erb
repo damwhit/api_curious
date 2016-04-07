@@ -23,6 +23,9 @@
       <h3><%= post.likes %> likes</h3><br><br>
     <h3 class="media-text"><%= post.username %></h3><br>
     <h3><%= post.caption %></h3>
+    <% post.comments.each do |comment| %>
+      <span class="comment"><em><%= comment.username %>:</em> <strong><%= comment.comment %></strong></span><br><br>
+    <% end %>
     </div>
   </article>
 <% end %>

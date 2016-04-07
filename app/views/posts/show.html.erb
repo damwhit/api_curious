@@ -18,7 +18,10 @@
       <div>
         <h3><%= @post.likes %> likes</h3><br><br>
         <%= link_to @post.username, user_path(@post.username), class: "media-text" %><br>
-<h3><%= @post.caption %></h3>
+        <h3><%= @post.caption %></h3><br><br>
+        <% @post.comments.each do |comment| %>
+          <span class="comment"><em><%= comment.username %>:</em> <strong><%= comment.comment %></strong></span><br><br>
+        <% end %>
       </div>
     </div>
   </div>

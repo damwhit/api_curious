@@ -20,6 +20,10 @@ class InstagramService
     parse(connection.get("media/#{post_id}", {access_token: token}))
   end
 
+  def comments(token, post_id)
+    parse(connection.get("media/#{post_id}/comments", {access_token: token}))
+  end
+
   def following_media(token, user_id)
     parse(connection.get("users/#{user_id}/media/recent", {access_token: token}))
   end

@@ -5,9 +5,10 @@ class PostMedia
               :caption,
               :location,
               :likes,
-              :post_time
+              :post_time,
+              :comments
 
-  def initialize(media)
+  def initialize(media, token)
     @image_url = media[:images][:standard_resolution][:url]
     @username = media[:user][:username]
     @prof_pic = media[:user][:profile_picture]
@@ -15,6 +16,7 @@ class PostMedia
     @location = media[:location][:name] if !media[:location].nil?
     @likes = media[:likes][:count]
     @post_time = media[:created_time]
+    @comments = CommentMedia.all(token, media[:id])
   end
 
   def self.service
@@ -22,7 +24,7 @@ class PostMedia
   end
 
   def self.find_by(token, post_id)
-    PostMedia.new(service.post_media(token, post_id)[:data])
+    PostMedia.new(service.post_media(token, post_id)[:data], token)
   end
 
   def format_time
@@ -32,7 +34,7 @@ class PostMedia
     user_ids = service.following(token)[:data].map { |user| user[:id] }
     user_media = user_ids.map do |uid|
       service.following_media(token, uid)[:data].map {
-        |media| PostMedia.new(media)
+        |media| PostMedia.new(media, token)
       }
     end
     user_media.flatten.sort_by {|post| -post.post_time.to_i }
