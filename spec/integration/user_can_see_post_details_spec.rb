@@ -24,7 +24,7 @@ RSpec.feature "AuthenticatedUserCanSeeDetailsOfPosts", type: :feature do
       VCR.use_cassette("instagram_service#post_media") do
         page.find("#image-#{first_post[:id]}").click
 
-        post = PostMedia.find_by(@user["credentials"]["token"], first_post[:id])
+        PostMedia.find_by(@user["credentials"]["token"], first_post[:id])
         expect(page).to have_content("35 likes")
 
         post_comments = CommentMedia.all(@user["credentials"]["token"], first_post[:id])

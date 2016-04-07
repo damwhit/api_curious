@@ -1,4 +1,6 @@
-<%= form_tag do %>
-  <%= text_field_tag :comment, nil, required:true, placeholder: "Add a comment", class:"form-control text-input" %><br>
-  <%= submit_tag "comment", class:"btn btn-success" %>
-<% end %>
+<div id="comment-form">
+  <%= form_tag do %>
+    <%= text_field_tag :comment, nil, required:true, placeholder: "Add a comment", class:"form-control text-input" %><br>
+    <%= submit_tag "comment", class:"btn btn-success", id:"submit" %>
+  <% end %>
+</div>

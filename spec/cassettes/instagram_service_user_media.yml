@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       X-Ratelimit-Remaining:
-      - '451'
+      - '405'
       Content-Language:
       - en
       Expires:
@@ -33,23 +33,23 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Date:
-      - Thu, 07 Apr 2016 17:14:35 GMT
+      - Thu, 07 Apr 2016 18:19:32 GMT
       Content-Type:
       - application/json; charset=utf-8
       Set-Cookie:
-      - csrftoken=3492ef34d771786c444802f22c1f0535; expires=Thu, 06-Apr-2017 17:14:35
+      - csrftoken=01e50918f76b2f18b7d850d4b92d8d1a; expires=Thu, 06-Apr-2017 18:19:32
         GMT; Max-Age=31449600; Path=/
-      - s_network=; expires=Thu, 07-Apr-2016 18:14:35 GMT; Max-Age=3600; Path=/
-      - sessionid=IGSC863abd90da908887f453647cf50942cfa4261a3156ea7942de2d51265095c523%3Add0mi4kfXAai8MyZPhxzJPOF9JRzLuMf%3A%7B%22asns%22%3A%7B%2263.145.15.99%22%3A209%2C%22time%22%3A1460049275%7D%7D;
-        expires=Wed, 06-Jul-2016 17:14:35 GMT; httponly; Max-Age=7776000; Path=/
+      - s_network=; expires=Thu, 07-Apr-2016 19:19:32 GMT; Max-Age=3600; Path=/
+      - sessionid=IGSCdbd950a2fc89a9d593c813b79fe9d43cf9b1efde40e4a666b15486444aadc9ba%3A9iy7BYhiGwXmBMDvcKolXKzcKCp45A09%3A%7B%22asns%22%3A%7B%2263.145.15.99%22%3A209%2C%22time%22%3A1460053172%7D%7D;
+        expires=Wed, 06-Jul-2016 18:19:32 GMT; httponly; Max-Age=7776000; Path=/
       Connection:
       - keep-alive
       Content-Length:
-      - '2707'
+      - '2708'
     body:
       encoding: ASCII-8BIT
       string: '{"pagination":{},"meta":{"code":200},"data":[{"attribution":null,"tags":[],"type":"image","location":{"latitude":39.61900034,"name":"Buffalo
-        Mountain","longitude":-106.091719383,"id":251727556},"comments":{"count":1},"filter":"Clarendon","created_time":"1452453317","link":"https:\/\/www.instagram.com\/p\/BAXrFnDAEYZ\/","likes":{"count":35},"images":{"low_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s320x320\/e35\/12523767_1011775992220969_2051935539_n.jpg?ig_cache_key=MTE1OTU4NDkzMDU5NDgzMzk0NQ%3D%3D.2","width":320,"height":320},"thumbnail":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s150x150\/e35\/12523767_1011775992220969_2051935539_n.jpg?ig_cache_key=MTE1OTU4NDkzMDU5NDgzMzk0NQ%3D%3D.2","width":150,"height":150},"standard_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s640x640\/sh0.08\/e35\/12523767_1011775992220969_2051935539_n.jpg?ig_cache_key=MTE1OTU4NDkzMDU5NDgzMzk0NQ%3D%3D.2","width":640,"height":640}},"users_in_photo":[],"caption":{"created_time":"1452453317","text":"Chonicles
+        Mountain","longitude":-106.091719383,"id":251727556},"comments":{"count":2},"filter":"Clarendon","created_time":"1452453317","link":"https:\/\/www.instagram.com\/p\/BAXrFnDAEYZ\/","likes":{"count":35},"images":{"low_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s320x320\/e35\/12523767_1011775992220969_2051935539_n.jpg?ig_cache_key=MTE1OTU4NDkzMDU5NDgzMzk0NQ%3D%3D.2","width":320,"height":320},"thumbnail":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s150x150\/e35\/12523767_1011775992220969_2051935539_n.jpg?ig_cache_key=MTE1OTU4NDkzMDU5NDgzMzk0NQ%3D%3D.2","width":150,"height":150},"standard_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s640x640\/sh0.08\/e35\/12523767_1011775992220969_2051935539_n.jpg?ig_cache_key=MTE1OTU4NDkzMDU5NDgzMzk0NQ%3D%3D.2","width":640,"height":640}},"users_in_photo":[],"caption":{"created_time":"1452453317","text":"Chonicles
         of Gnarnia with elm dog. \u2603","from":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
         Michael"},"id":"1159584933564401464"},"user_has_liked":false,"id":"1159584930594833945_684175016","user":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
         Michael"}},{"attribution":null,"tags":[],"type":"image","location":null,"comments":{"count":9},"filter":"Normal","created_time":"1451396987","link":"https:\/\/www.instagram.com\/p\/_4MTEVAEd-\/","likes":{"count":64},"images":{"low_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s320x320\/e35\/1516093_596403250508237_440488129_n.jpg?ig_cache_key=MTE1MDcyMzc5MTY2ODY2MDA5NA%3D%3D.2","width":320,"height":320},"thumbnail":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s150x150\/e35\/1516093_596403250508237_440488129_n.jpg?ig_cache_key=MTE1MDcyMzc5MTY2ODY2MDA5NA%3D%3D.2","width":150,"height":150},"standard_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s640x640\/sh0.08\/e35\/1516093_596403250508237_440488129_n.jpg?ig_cache_key=MTE1MDcyMzc5MTY2ODY2MDA5NA%3D%3D.2","width":640,"height":640}},"users_in_photo":[{"position":{"y":0.245333333,"x":0.305333333},"user":{"username":"lriffell","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11098660_846071145459297_1292308396_a.jpg","id":"23319913","full_name":"lriffell"}}],"caption":{"created_time":"1451396987","text":"Couldn''t
@@ -85,5 +85,280 @@ http_interactions:
         Michael"},"id":"593108953265620843"},"user_has_liked":false,"id":"593107816995111955_684175016","user":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
         Michael"}}]}'
     http_version: 
-  recorded_at: Thu, 07 Apr 2016 17:14:35 GMT
+  recorded_at: Thu, 07 Apr 2016 18:19:32 GMT
+- request:
+    method: get
+    uri: https://api.instagram.com/v1/media/1159584930594833945_684175016?access_token=684175016.1d1a0a0.e79ca0de3adc457182dc95a158a68384
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Ratelimit-Remaining:
+      - '404'
+      Content-Language:
+      - en
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Vary:
+      - Cookie, Accept-Language, Accept-Encoding
+      X-Ratelimit-Limit:
+      - '500'
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Date:
+      - Thu, 07 Apr 2016 18:19:33 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - csrftoken=9f0041f3725bf20fb1e52a491a5e3381; expires=Thu, 06-Apr-2017 18:19:33
+        GMT; Max-Age=31449600; Path=/
+      - s_network=; expires=Thu, 07-Apr-2016 19:19:33 GMT; Max-Age=3600; Path=/
+      - sessionid=IGSCd94c1f38c5adb2d61290be6ae2201bee1233b3e1f2af1b787a4a027efbdc2c25%3A0GOQZ8Vk1xYiF7C4I1l4lu4oluLdMilm%3A%7B%22asns%22%3A%7B%2263.145.15.99%22%3A209%2C%22time%22%3A1460053173%7D%7D;
+        expires=Wed, 06-Jul-2016 18:19:33 GMT; httponly; Max-Age=7776000; Path=/
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '645'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meta":{"code":200},"data":{"attribution":null,"tags":[],"type":"image","location":{"latitude":39.61900034,"name":"Buffalo
+        Mountain","longitude":-106.091719383,"id":251727556},"comments":{"count":2},"filter":"Clarendon","created_time":"1452453317","link":"https:\/\/www.instagram.com\/p\/BAXrFnDAEYZ\/","likes":{"count":35},"images":{"low_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s320x320\/e35\/12523767_1011775992220969_2051935539_n.jpg?ig_cache_key=MTE1OTU4NDkzMDU5NDgzMzk0NQ%3D%3D.2","width":320,"height":320},"thumbnail":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s150x150\/e35\/12523767_1011775992220969_2051935539_n.jpg?ig_cache_key=MTE1OTU4NDkzMDU5NDgzMzk0NQ%3D%3D.2","width":150,"height":150},"standard_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s640x640\/sh0.08\/e35\/12523767_1011775992220969_2051935539_n.jpg?ig_cache_key=MTE1OTU4NDkzMDU5NDgzMzk0NQ%3D%3D.2","width":640,"height":640}},"users_in_photo":[],"caption":{"created_time":"1452453317","text":"Chonicles
+        of Gnarnia with elm dog. \u2603","from":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
+        Michael"},"id":"1159584933564401464"},"user_has_liked":false,"id":"1159584930594833945_684175016","user":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
+        Michael"}}}'
+    http_version: 
+  recorded_at: Thu, 07 Apr 2016 18:19:33 GMT
+- request:
+    method: get
+    uri: https://api.instagram.com/v1/media/1159584930594833945_684175016/comments?access_token=684175016.1d1a0a0.e79ca0de3adc457182dc95a158a68384
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Ratelimit-Remaining:
+      - '403'
+      Content-Language:
+      - en
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Vary:
+      - Cookie, Accept-Language, Accept-Encoding
+      X-Ratelimit-Limit:
+      - '500'
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Date:
+      - Thu, 07 Apr 2016 18:19:34 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - csrftoken=d1caf4d43d25b922c0d73bcd349efb8c; expires=Thu, 06-Apr-2017 18:19:34
+        GMT; Max-Age=31449600; Path=/
+      - s_network=; expires=Thu, 07-Apr-2016 19:19:34 GMT; Max-Age=3600; Path=/
+      - sessionid=IGSCe1d81d0c1e61da6d3875db1d1d22bd529e9eb92aeed1c275d9e12ff735617b5c%3Arq7uLOm1Bw9tFZHq0bjBtN3NbOMqeeVB%3A%7B%22asns%22%3A%7B%2263.145.15.99%22%3A209%2C%22time%22%3A1460053174%7D%7D;
+        expires=Wed, 06-Jul-2016 18:19:34 GMT; httponly; Max-Age=7776000; Path=/
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '343'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meta":{"code":200},"data":[{"created_time":"1459916256","text":"Cool!
+        Winter is coming.","from":{"username":"artofmoxie","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/10706750_852405121512571_1455045308_a.jpg","id":"16502037","full_name":"Beth"},"id":"1222188597566785196"},{"created_time":"1460052675","text":"White
+        walkers are scary","from":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
+        Michael"},"id":"1223332970404792315"}]}'
+    http_version: 
+  recorded_at: Thu, 07 Apr 2016 18:19:34 GMT
+- request:
+    method: post
+    uri: https://api.instagram.com/v1/media/1159584930594833945_684175016/comments
+    body:
+      encoding: UTF-8
+      string: access_token=684175016.1d1a0a0.e79ca0de3adc457182dc95a158a68384&text=test+comment
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Ratelimit-Remaining:
+      - '402'
+      Content-Language:
+      - en
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Vary:
+      - Cookie, Accept-Language, Accept-Encoding
+      X-Ratelimit-Limit:
+      - '500'
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Date:
+      - Thu, 07 Apr 2016 18:19:40 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - csrftoken=eb1bdf17ca59c843fbb16a92f358ecb9; expires=Thu, 06-Apr-2017 18:19:40
+        GMT; Max-Age=31449600; Path=/
+      - s_network=; expires=Thu, 07-Apr-2016 19:19:40 GMT; Max-Age=3600; Path=/
+      - sessionid=IGSC0057fc151145ef981afdbc4d68bf1ed0dd78723c90d7bea917d8c2f701d36790%3AvuRfPRICVzAlSds2yNaDIyjtVErWGTwT%3A%7B%22asns%22%3A%7B%2263.145.15.99%22%3A209%2C%22time%22%3A1460053180%7D%7D;
+        expires=Wed, 06-Jul-2016 18:19:40 GMT; httponly; Max-Age=7776000; Path=/
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '237'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meta":{"code":200},"data":{"created_time":"1460053180","text":"test
+        comment","from":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
+        Michael"},"id":"1223337198942700848"}}'
+    http_version: 
+  recorded_at: Thu, 07 Apr 2016 18:19:40 GMT
+- request:
+    method: get
+    uri: https://api.instagram.com/v1/media/1159584930594833945_684175016?access_token=684175016.1d1a0a0.e79ca0de3adc457182dc95a158a68384
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Ratelimit-Remaining:
+      - '401'
+      Content-Language:
+      - en
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Vary:
+      - Cookie, Accept-Language, Accept-Encoding
+      X-Ratelimit-Limit:
+      - '500'
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Date:
+      - Thu, 07 Apr 2016 18:19:40 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - csrftoken=7d16db3e6d6b616b7eb5ebf0a9ca6d32; expires=Thu, 06-Apr-2017 18:19:40
+        GMT; Max-Age=31449600; Path=/
+      - s_network=; expires=Thu, 07-Apr-2016 19:19:40 GMT; Max-Age=3600; Path=/
+      - sessionid=IGSC6ba5c5c1a0de0dd14b861c38196d8a39f7de71ccc2d30966da6f2568bd7f0159%3As74mh0xQIO6hLKNewB4CZSbPTEhkVBys%3A%7B%22asns%22%3A%7B%2263.145.15.99%22%3A209%2C%22time%22%3A1460053180%7D%7D;
+        expires=Wed, 06-Jul-2016 18:19:40 GMT; httponly; Max-Age=7776000; Path=/
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '644'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meta":{"code":200},"data":{"attribution":null,"tags":[],"type":"image","location":{"latitude":39.61900034,"name":"Buffalo
+        Mountain","longitude":-106.091719383,"id":251727556},"comments":{"count":3},"filter":"Clarendon","created_time":"1452453317","link":"https:\/\/www.instagram.com\/p\/BAXrFnDAEYZ\/","likes":{"count":35},"images":{"low_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s320x320\/e35\/12523767_1011775992220969_2051935539_n.jpg?ig_cache_key=MTE1OTU4NDkzMDU5NDgzMzk0NQ%3D%3D.2","width":320,"height":320},"thumbnail":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s150x150\/e35\/12523767_1011775992220969_2051935539_n.jpg?ig_cache_key=MTE1OTU4NDkzMDU5NDgzMzk0NQ%3D%3D.2","width":150,"height":150},"standard_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s640x640\/sh0.08\/e35\/12523767_1011775992220969_2051935539_n.jpg?ig_cache_key=MTE1OTU4NDkzMDU5NDgzMzk0NQ%3D%3D.2","width":640,"height":640}},"users_in_photo":[],"caption":{"created_time":"1452453317","text":"Chonicles
+        of Gnarnia with elm dog. \u2603","from":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
+        Michael"},"id":"1159584933564401464"},"user_has_liked":false,"id":"1159584930594833945_684175016","user":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
+        Michael"}}}'
+    http_version: 
+  recorded_at: Thu, 07 Apr 2016 18:19:40 GMT
+- request:
+    method: get
+    uri: https://api.instagram.com/v1/media/1159584930594833945_684175016/comments?access_token=684175016.1d1a0a0.e79ca0de3adc457182dc95a158a68384
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Ratelimit-Remaining:
+      - '400'
+      Content-Language:
+      - en
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Vary:
+      - Cookie, Accept-Language, Accept-Encoding
+      X-Ratelimit-Limit:
+      - '500'
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Date:
+      - Thu, 07 Apr 2016 18:19:41 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - csrftoken=56d759188367da1049ee55808c32082b; expires=Thu, 06-Apr-2017 18:19:41
+        GMT; Max-Age=31449600; Path=/
+      - s_network=; expires=Thu, 07-Apr-2016 19:19:41 GMT; Max-Age=3600; Path=/
+      - sessionid=IGSCa6c69d166fbbd5a49c8fde25fb2d2fb06f5da101c0dcb70dd5d7efc7c6174630%3AUZmV1JzEPvADvCsAhirG7fIsS8UzOfcZ%3A%7B%22asns%22%3A%7B%2263.145.15.99%22%3A209%2C%22time%22%3A1460053181%7D%7D;
+        expires=Wed, 06-Jul-2016 18:19:41 GMT; httponly; Max-Age=7776000; Path=/
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '372'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meta":{"code":200},"data":[{"created_time":"1459916256","text":"Cool!
+        Winter is coming.","from":{"username":"artofmoxie","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/10706750_852405121512571_1455045308_a.jpg","id":"16502037","full_name":"Beth"},"id":"1222188597566785196"},{"created_time":"1460052675","text":"White
+        walkers are scary","from":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
+        Michael"},"id":"1223332970404792315"},{"created_time":"1460053180","text":"test
+        comment","from":{"username":"damwhita","profile_picture":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428706_1479772922342298_1403186492_a.jpg","id":"684175016","full_name":"David
+        Michael"},"id":"1223337198942700848"}]}'
+    http_version: 
+  recorded_at: Thu, 07 Apr 2016 18:19:41 GMT
 recorded_with: VCR 3.0.1
