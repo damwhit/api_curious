@@ -12,6 +12,7 @@ class PostsController < ApplicationController
 
   def index
     @posts = PostMedia.all(current_user.token)
+    @posts = @posts.paginate(page: params[:page], per_page: 10)
   end
 
   def destroy
